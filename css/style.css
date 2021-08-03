@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("star.css");
+
+body{
+    margin:  0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+   }
+ #top{  
+    min-height: 100vh;
+    height: 100vh;
+    background: linear-gradient( 165deg ,rgba(30, 255, 7, 1),rgba(141, 250, 132, 1));
+    } 
+    h1{
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: -2px;
+    }
+    h2,h3{
+        color:#0e0d46;
+		font-size:2.rem;
+    }
+	.top-container{
+	  position:relative;
+	  top:40%;
+      text-align: center;
+	}
+    .container{
+        padding: 10px;
+        text-align: center;
+    }
+    .about-info P{
+        color: #0e0d46;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        text-justify: inter-word;
+        display: block;
+        overflow: auto;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .container p{
+        font-size: 20px;
+        display: block;
+        overflow: auto;
+        width: 70%;
+        margin: 0 auto;
+    }
+    p.footer-text{
+        font-size: 15px;
+    }
+.cta-btn {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 0.8rem 20px;
+    line-height: 1;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cta-btn--about{
+    color: whitesmoke;
+    border: 1.5px solid white;
+    margin-top: 30px;
+    border-radius: 4pt;
+}
+.cta-btn--resume{
+    color:darkblue;
+    top: 20px;
+border: 1.5px solid darkblue;
+border-radius: 4pt;
+}
+#about{
+  background-color:#e8ecee;
+  height: 100%;
+  padding-top: 20%;
+  border-top: 0px;
+  padding-bottom: 20%;
+}
+#project{
+  margin-top:10%;
+  padding-bottom: 10%;
+}
+.project-info{
+  display:block;
+  text-align:left;
+  color:#0e0d46;
+  margin-top: 10vh;
+}
+#skill{
+  width: 60%;
+  margin:0 auto;
+  margin-top: 20vh;
+  padding-bottom: 20%;
+}
+  .icon-3d {
+    padding: 10px;
+    color: #fff;
+  }
+label{
+  float:left;
+}
+.footer-text{
+  padding:1.5rem;
+}
+  footer{
+      text-align: center;
+      background: linear-gradient(180deg ,
+      #3f3e3e,
+      #333333);
+      color: white;
+      padding: 4.8rem 0;
+  }
+  .back-to-top i {
+    color: white;
+    margin: 1rem 0 20px;
+  }
+    .back-to-top i:hover , .icon-3d:hover , .footer__text a:hover {
+      transform: translateY(-4px);
+    }
+ .progress {
+  padding: 3px;
+  border-radius: 20px;
+  margin-bottom:15px;
+  background-color: #e8ecee; 
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 16px;
+  border-radius: 20px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;    
+}
+
+.progress-moved .progress-bar {
+  background-color: #007aff;
+  animation: progress 1.5s ease-in-out forwards;
+}
+.project-info[data-scroll="in"]{
+  transition: opacity 1s;
+  opacity:1;
+}
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
+    label{
+	  font-size:1.5rem;
+	}
+}
+
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+.top-container{
+	  position:relative;
+	  top:15%;
+      text-align: center;
+	}
+
+}
+@media only screen and (max-width:  600px){
+  top-container{
+	  position:relative;
+	  top:40%;
+      text-align: center;
+	}
+}
+@media only screen and (max-width:  600px)
+                   and (orientation : portrait){
+					 
+#skill{
+   width:90%;
+   margin: 0 auto;
+ }
+ .top-container{
+   position:relative;
+   top:20%;
+ }
+ h1{
+   font-weight:600;
+   font-size: 3.6rem;
+ }
+  .container p{
+	font-size:20px;
+	width:95%;
+	margin:0 auto;
+  }
+}
+
+
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  to {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+}
+
+
+

@@ -1,6 +1,8 @@
 # Portfolio
 <P>😒Noob Web Developer😒</p><br/>
-<H5>Todo List</H5>
--[Fix Star in the Background]
--[Animate elements When Scroll into View]
+<dl>
+  <dt>To do List</dt>
+  <dd>-Fix Star in the background</dd>
+  <dd>-Animate Elements when scroll into View</dd>
+</dl>
 

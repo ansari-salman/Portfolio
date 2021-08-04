@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("star.css");
+@import url("section/top.css");
+@import url("section/about.css");
+@import url("section/project.css");
+@import url("section/skill.css");
+@import url("section/footer.css");
+
+@media  (max-width:  400px)
+                   and (orientation : portrait){
+			
+ #skill{
+       width: 85%;
+        margin: 0 auto;
+  }	     
+  .top-container{                
+	position:relative;                 
+	top:20%;                      
+	text-align: center;                   
+}                   
+	.top-container p{                      
+	  font-size: 13px;                   
+	  }                    
+	  .project-image{                                  
+		width:100%                     
+		height:auto;                  
+		}                     
+		.container{                        
+		  margin:0 auto;                      
+		  font-size:15px;            
+		  width:85%;            
+}            
+p.footer-text{
+   font-size: 12px;
+ }        
+}
+
+   
+
+
+
+ 
+
+
+

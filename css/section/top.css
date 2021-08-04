@@ -1,0 +1,40 @@
+body{
+    margin:  0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+   }
+ #top{
+   padding: 0;
+   margin: 0;
+    min-height: 100vh;
+    height: 100vh;
+    background: linear-gradient( 165deg ,rgba(30, 255, 7, 1),rgba(141, 250, 132, 1));
+    } 
+    h1{
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: -2px;
+    }
+    h2,h3{
+        color:#0e0d46;
+		font-size:2.rem;
+    }
+	.top-container{
+	  position:relative;
+	  top:25%;
+      text-align: center;
+  }
+  .top-container p{
+    padding: 5px;
+  color: white;
+  text-align: center;
+  }
+.icon-3d {
+    padding: 10px;
+    color: #fff;
+  }
+  .icon-3d:hover{
+	color:#000000;
+  }

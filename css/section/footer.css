@@ -1,0 +1,21 @@
+footer{
+      text-align: center;
+      background: linear-gradient(180deg ,
+      #3f3e3e,
+      #333333);
+      color: white;
+      padding: 4.8rem 0;
+  }
+p.footer-text , p.footer-text a {
+  text-decoration: none;
+  color:rgb(197, 193, 193);
+  text-align:center;
+  display:inline;
+}
+  .back-to-top i {
+    color: white;
+    margin: 1rem 0 20px;
+  }
+    .back-to-top i:hover {
+      transform: translateY(-4px);
+    }

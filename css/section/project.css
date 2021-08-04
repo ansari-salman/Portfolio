@@ -1,0 +1,20 @@
+#project{
+  margin-top:10%;
+  padding-bottom: 5%;
+}
+ .project-image{
+  padding-top:4vh;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  width:80%;
+  height: auto;
+}
+.project-wrapper{
+  text-align: center;
+}
+.project-info{
+  text-align:left;
+  color:#0e0d46;
+  margin-top: 10vh;
+}

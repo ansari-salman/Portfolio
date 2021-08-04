@@ -7,7 +7,7 @@
   margin: 0 auto;
   text-align: center;
   align-items: center;
-  width:80%;
+  width:85%;
   height: auto;
 }
 .project-wrapper{
@@ -16,5 +16,5 @@
 .project-info{
   text-align:left;
   color:#0e0d46;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }

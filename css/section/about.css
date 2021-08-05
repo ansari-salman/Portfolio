@@ -25,11 +25,27 @@
   padding-top: 10%;
   padding-bottom: 10%;
 }
-.cta-btn--about{
+.cta-btn-more,.cta-btn-email{
     color: white;
     border: 1.5px solid white;
     margin-top: 30px;
     border-radius: 4pt;
+}
+.cta-btn-more{
+	animation: up 1.5s ease;
+}
+@keyframes up {
+  from {
+    transform: translateY(200px);
+	opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+	opacity: 1;
+  }
+} 
+.reveal.active .cta-btn-email ,.reveal.active .cta-btn--resume{
+	animation: up 1.5s ease;
 }
 .cta-btn--resume{
     color:DarkBlue;

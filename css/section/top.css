@@ -6,6 +6,10 @@ body{
  #top{
     min-height: 100vh;
     height: 100vh;
+	color:White;
+	  justify-content: center;
+      align-items: center;
+	  text-align: center; 
     background: linear-gradient( 180deg ,rgba(30, 255, 7, 1),rgba(14, 250, 12, 1));
     } 
     h1{
@@ -16,12 +20,11 @@ body{
     }
     h2,h3{
         color:#0e0d46;
-		font-size:2.rem;
+		font-size:2rem;
     }
 .top-container{
 	  position:relative;
 	  top:25%;
-      text-align: center;
   }
   .top-container p{
     padding: 5px;

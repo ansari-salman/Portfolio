@@ -20,15 +20,15 @@ label{
 .progress-bar {
   height: 16px;
   border-radius: 20px;
+  transform: scaleX(0);
   transition: 0.4s linear;
   transition-property: width, background-color;    
 }
 
-.progress-moved .progress-bar {
+.reveal.active .progress-moved .progress-bar {
   background-color: #007aff;
   animation: progress 1.5s ease-in-out forwards;
 }
-
 
 @keyframes progress {
   from {

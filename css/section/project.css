@@ -14,8 +14,16 @@
 .project-wrapper{
   text-align: center;
 }
-.project-info{
+.reveal .project-info{
   text-align:left;
   color:#0e0d46;
   margin-top: 5vh;
+  opacity:0;
+  position: relative;
+  transform: translateY(150px);
+}
+.reveal.active .project-info{
+	opacity:1;
+	transform: translateY(0px);
+	transition: all 2s ease;
 }

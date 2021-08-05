@@ -9,7 +9,7 @@
 	<link rel="shortcut icon" type="image/png" href="/asset/favicon.ico" />
 	<meta name="keywords" content="ansari-salman, Ansari Salman, JavaScript,Html,Css" />
 
-	<meta name="description" content="Ansari Salman | Developer" />
+	<meta name="description" content="Hi,I am Ansari Salman I'm a software Developer" />
     <title>Ansari Salman | Developer</title>
     
     <link href="css/main.css" rel="stylesheet">
@@ -18,7 +18,7 @@
 
   <body>
     <section id="top">
-	 <div class="top-container">
+	 <div class="top-container reveal">
 		<div id="stars"></div>
 		<div id="stars2"></div>
 		<div id="stars3"></div>
@@ -29,26 +29,26 @@
 		  <a href="https://www.instagram.com/salman_ozair/"><i class="fa fa-instagram fa-3x icon-3d"></i></a>
 		  <a href="https://www.linkedin.com/in/ansarisalman"><i class="fa fa-linkedin fa-3x icon-3d"></i></a>
 		</div>
-		<a class="cta-btn cta-btn--about" href="#about">Know More</a>
+		<a class="cta-btn cta-btn-more" href="#about">Know More</a>
 	  </div>
 	</section>
     <section id="about">
-	  <div class="container">
+	  <div class="container reveal">
 		<h2>About</h2>
 		<p>
 		  My Name is Ansari Salman.I am a BCS Student graduate from M S G College of Malegaon. However, I have learned
 		  Programming Language on my own.I'm passionate about coding
-		  In final year I have made web app project on Bus reservation system
+		  In my final year I have made web app project on Bus reservation system
 		  I have one year of experience in Android app Developement
 		  and Built many webview apps and published it on Google Play Store. 
-		  Now Iam focused on App Development.
+		  Now I am focused on App Development.
 		</p>
 		<a target="_blank" class="cta-btn cta-btn--resume"
 		  href="">View Resume</a>
 	  </div>
     </section>
 	<section id="project">
-	  <div class="container">
+	  <div class="container reveal">
 		<h2>Projects</h2>
 		<div class="project-info">
 		  <h3 class="project-title">Urdu City India News App</h3>
@@ -81,7 +81,7 @@
 	  </div>
 	</section>
     <section id="skill">
-	  <div class="container">
+	  <div class="container reveal">
 		<h2>Technical Skills</h2>
 		<label>Android App Developement</label><br/>
 		<div class="progress progress-moved">
@@ -118,13 +118,13 @@
 	  </div>
     </section>
     <footer>
-	  <div class="container">
+	  <div class="container reveal">
 		<p>I'm Currently looking for full-time Android app development or 
 		  web development opprtunities. If you know of any positions available
 		  please</p>
-		<a target="_blank" class="cta-btn cta-btn--about" href="mailto:salmanah8551@gmail.com">Email me</a><br/>
+		<a target="_blank" class="cta-btn cta-btn-email" href="mailto:salmanah8551@gmail.com">Email me</a><br/>
 		<a href="#top" class="back-to-top">
-		  <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+		  <i class="fa fa-angle-up fa-1x" aria-hidden="true"></i>
 		</a>
 
 
@@ -135,7 +135,24 @@
 		<a href="https://github.com/ansari-salman">Ansari Salman</a>
 	  </p>
     </footer>
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
 
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        
+      }
+    }
+</script>
   </body>
 
 </html>

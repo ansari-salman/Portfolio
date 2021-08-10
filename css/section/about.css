@@ -56,7 +56,7 @@ border-radius: 4pt;
 #about p , .project-info .project-title{
   text-align:left;
 }
-.cta-btn--about:hover{
+.cta-btn-more:hover, .cta-btn-email:hover{
   color: Black;
   border: 1.5px solid Black;
   transform:scale(1.1);
